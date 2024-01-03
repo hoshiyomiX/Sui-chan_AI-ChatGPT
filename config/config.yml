@@ -1,5 +1,5 @@
-telegram_token: "6559421973:AAHgloPWlcdcaFXNkTrLJaXkgv4viJiLP-w"
-openai_api_key: "@Key2"
+telegram_token: "6559421973:AAFKDg5Ah7xPafoEqX-9QWN_7g2G7OTbGtc"
+openai_api_key: "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"
 openai_api_base: null  # leave null to use default api base or you can put your own base url here
 allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as positive integers and/or channel ids as negative integers
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
@@ -9,6 +9,6 @@ image_size: "512x512" # the image size for image generation. Generated images ca
 enable_message_streaming: true  # if set, messages will be shown to user word-by-word
 
 # prices
-chatgpt_price_per_1000_tokens: 0.001
-gpt_price_per_1000_tokens: 0.01
-whisper_price_per_1_min: 0.001
+chatgpt_price_per_1000_tokens: 0.00001
+gpt_price_per_1000_tokens: 0.00001
+whisper_price_per_1_min: 0.000001
